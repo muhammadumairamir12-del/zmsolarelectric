@@ -6,7 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ZM Solar & Electric - Solar & Power Solutions Pakistan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
 <style>
   :root {
     /* New Theme: White base with Teal accents and a touch of Pink */
@@ -46,8 +48,7 @@
   #splash {
     position: fixed;
     inset: 0;
-    /* Updated gradient to be more blue/teal */
-    background: linear-gradient(135deg, var(--teal-dark) 0%, var(--teal-main) 100%);
+    background: linear-gradient(135deg, var(--text-dark) 0%, var(--gray-dark) 40%, var(--teal-main) 100%); /* Updated gradient */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,12 +247,12 @@
 
   .nav-links a#nav-calc { /* Specific style for the calculator link */
     background: var(--teal-pale);
-    color: var(--pink-accent); /* Changed to pink-accent */
+    color: var(--teal-dark);
     border: 1.5px solid var(--teal-fade);
   }
   .nav-links a#nav-calc:hover, .nav-links a#nav-calc.active {
     background: var(--teal-fade);
-    color: var(--pink-accent); /* Keep pink-accent on hover/active */
+    color: var(--teal-dark);
   }
 
 
@@ -2096,8 +2097,8 @@
 
   <!-- TOPBAR -->
   <div class="topbar">
-    <span>📞 <a href="tel:+923091453343">+92 309 145 3343</a></span>
-    <span>📧 <a href="mailto:abdullahtahir1802@gmail.com">abdullahtahir1802@gmail.com</a></span>
+    <span>📞 <a href="tel:+923184195665">+92 318 419 5665</a></span>
+    <span>📧 <a href="mailto:infoskyeagle12@gmail.com">infoskyeagle12@gmail.com</a></span>
     <span>⚡ Free Installation on Orders Over Rs. 50,000</span>
   </div>
 
@@ -2115,7 +2116,7 @@
         <li><a onclick="window.navigate('home')" id="nav-home" class="active">Home</a></li>
         <li><a onclick="window.navigate('products')">Products</a></li>
         <li><a onclick="window.navigate('services')">Services</a></li>
-        <li><a onclick="window.navigate('full-calculator')" id="nav-calc">✨ Solar Calculator</a></li>
+        <li><a onclick="window.navigate('full-calculator')" id="nav-calc" style="background: var(--teal-pale); color: var(--pink-accent); border: 1.5px solid var(--teal-fade);">✨ Solar Calculator</a></li>
         <li><a onclick="window.navigate('about')">About Us</a></li>
         <li><a onclick="window.navigate('contact')">Contact</a></li>
       </ul>
@@ -2663,7 +2664,7 @@
               <div class="form-group"><label>First Name*</label><input type="text" placeholder="Muhammad"></div>
               <div class="form-group"><label>Last Name*</label><input type="text" placeholder="Ali"></div>
             </div>
-            <div class="form-group"><label>Phone Number*</label><input type="tel" placeholder="+92 309 145 3343"></div>
+            <div class="form-group"><label>Phone Number*</label><input type="tel" placeholder="+92 318 419 5665"></div>
             <div class="form-group"><label>Email Address</label><input type="email" placeholder="you@email.com"></div>
             <div class="form-group"><label>Complete Address*</label><textarea rows="3" placeholder="House No., Street, Area..."></textarea></div>
             <div class="form-grid">
@@ -2811,11 +2812,11 @@
           <p style="color:var(--gray-mid);line-height:1.8;margin-bottom:32px;">Free consultation, site survey, and product demo available. Just call or message us on WhatsApp!</p>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3.22H6.6a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.9a16 16 0 0 0 6.1 6.1l.94-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-            <div><div class="contact-label">Phone / WhatsApp</div><div class="contact-val"><a href="tel:+923091453343" style="color:var(--text-dark);text-decoration:none;">+92 309 145 3343</a> <a href="https://wa.me/923186261945" target="_blank" style="color:var(--green);font-weight:700;text-decoration:none;">(Chat: +92 318 626 1945)</a></div></div>
+            <div><div class="contact-label">Phone / WhatsApp</div><div class="contact-val"><a href="tel:+923184195665" style="color:var(--text-dark);text-decoration:none;">+92 318 419 5665</a> <a href="https://wa.me/923188791637" target="_blank" style="color:var(--green);font-weight:700;text-decoration:none;">(Chat: +92 318 879 1637)</a></div></div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-            <div><div class="contact-label">Email</div><div class="contact-val">abdullahtahir1802@gmail.com</div></div>
+            <div><div class="contact-label">Email</div><div class="contact-val">infoskyeagle12@gmail.com</div></div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
@@ -2829,7 +2830,7 @@
         <div class="form-card" style="margin-top:0;">
           <h3>📩 Send Us a Message</h3>
           <div class="form-group"><label>Your Name*</label><input type="text" placeholder="Muhammad Ali"></div>
-          <div class="form-group"><label>Phone*</label><input type="tel" placeholder="+92 309 145 3343"></div>
+          <div class="form-group"><label>Phone*</label><input type="tel" placeholder="+92 318 419 5665"></div>
           <div class="form-group"><label>Subject</label><input type="text" placeholder="Solar system inquiry"></div>
           <div class="form-group"><label>Message*</label><textarea rows="5" placeholder="Describe your power needs..."></textarea></div>
           <button class="btn-blue" style="width:100%;" onclick="window.sendMessage()">Send Message →</button>
@@ -2838,7 +2839,7 @@
     </div>
     <!-- Live Map Embed -->
     <div style="width:100%; height:400px; margin-top: 20px;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55119.483081775245!2d71.93605889999999!3d30.294981349999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b550c5f88f047%3A0x487183f8641910b7!2sKhanewal%2C%20Pakistan!5e0!3m2!1sen!2s!4v1776243339499!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.785721867055!2d74.32135067500138!3d31.51403544607779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190538a8e100f9%3A0x6b449b802a8b988c!2sDHA%20Phase%206%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1718535000000!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 
@@ -2863,7 +2864,7 @@
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <img src="https://images.unsplash.com/photo-1697665896701-1b8bd594f860?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW52ZXJ0ZXJzfHxlbnwwfHwwfHx8MA%3D%3D" alt="Solar System Optimization">
+              <img src="https://images.unsplash.com/photo-1697665896701-1b8bd594f860?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW52ZXJ0ZXJzfGVufDB8fDB8fHww" alt="Solar System Optimization">
             </div>
             <h3>Solar System Optimization</h3>
             <p>Maximize your energy savings by optimizing your solar panel system for peak performance and efficiency.</p>
@@ -2912,7 +2913,7 @@
           <div class="footer-social">
             <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
             <a href="#" class="social-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-            <a href="https://wa.me/923186261945" target="_blank" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+            <a href="https://wa.me/923188791637" target="_blank" class="social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
           </div>
         </div>
         <div class="footer-col">
@@ -2941,7 +2942,7 @@
           <h4>Contact Info</h4>
           <div class="footer-contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3.22H6.6a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.9a16 16 0 0 0 6.1 6.1l.94-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>+92 309 145 3343<br>+92 318 626 1945 (WhatsApp)</span>
+            <span>+92 318 419 5665<br>+92 318 879 1637 (WhatsApp)</span>
           </div>
           <div class="footer-contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -2969,7 +2970,7 @@
 </div><!-- END APP -->
 
 <!-- WhatsApp Float -->
-<a href="https://wa.me/923186261945" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/923188791637" class="whatsapp-float" target="_blank">
   <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
 </a>
 
@@ -3131,7 +3132,7 @@ function renderCarouselProductCard(p) {
   const onClickAction = p.cat === 'installation' ? `window.navigate('services')` : `window.navigate('product', ${p.id})`;
   return `
     <div class="cat-prod-card" onclick="${onClickAction}">
-      <img src="${p.img ? p.img : getCatImageHtml(p.cat)}" alt="${p.name}" class="cat-prod-img">
+<img src="${p.img ? p.img : getCatImageHtml(p.cat)}" alt="${p.name}" class="cat-prod-img" loading="lazy" decoding="async">
       <div class="cat-prod-name">${p.name}</div>
       <div class="cat-prod-price">${formatPrice(p.price)}</div>
     </div>
@@ -3144,7 +3145,7 @@ function renderProductCard(p) {
   const inCart = cart.find(c => c.id === p.id);
   return `<div class="product-card" onclick="window.navigate('product', ${p.id})">
     <div class="product-img">
-      ${p.img ? `<img src="${p.img}" alt="${p.name}">` : getCatImageHtml(p.cat)}
+${p.img ? `<img src="${p.img}" alt="${p.name}" loading="lazy" decoding="async">` : getCatImageHtml(p.cat)}
       ${p.badge ? `<div class="product-badge">${p.badge}</div>` : ''}
     </div>
     <div class="product-body">
@@ -3343,7 +3344,7 @@ window.requestFullQuote = function() {
       <div class="pkg-price-box">
         <div style="font-size:0.85rem; font-weight:700; color:var(--gray-mid); text-transform:uppercase; letter-spacing:1px;">Estimated Cost</div>
         <div class="pkg-total">${formatPrice(pkg1Total)}</div>
-        <a href="https://wa.me/923186261945?text=${encodeURIComponent(`Hi, I am interested in the ${systemSizeKw}kW Standard ${isHybrid ? 'Hybrid' : 'On-Grid'} Solar Package from your calculator. My details:
+        <a href="https://wa.me/923188791637?text=${encodeURIComponent(`Hi, I am interested in the ${systemSizeKw}kW Standard ${isHybrid ? 'Hybrid' : 'On-Grid'} Solar Package from your calculator. My details:
 Meter Type: ${meterType}
 Avg Bill: ${formatPrice(avgBill)} (${avgUnits} units)
 Total Load: ${fullCalcState.totalLoadKw.toFixed(1)} kW
@@ -3376,7 +3377,7 @@ Estimated Price: ${formatPrice(pkg1Total)}. Please provide a detailed quote.`)}"
       <div class="pkg-price-box">
         <div style="font-size:0.85rem; font-weight:700; color:var(--gray-mid); text-transform:uppercase; letter-spacing:1px;">Estimated Cost</div>
         <div class="pkg-total">${formatPrice(pkg2Total)}</div>
-        <a href="https://wa.me/923186261945?text=${encodeURIComponent(`Hi, I am interested in the ${systemSizeKw}kW Premium ${isHybrid ? 'Hybrid' : 'On-Grid'} Solar Package from your calculator. My details:
+        <a href="https://wa.me/923188791637?text=${encodeURIComponent(`Hi, I am interested in the ${systemSizeKw}kW Premium ${isHybrid ? 'Hybrid' : 'On-Grid'} Solar Package from your calculator. My details:
 Meter Type: ${meterType}
 Avg Bill: ${formatPrice(avgBill)} (${avgUnits} units)
 Total Load: ${fullCalcState.totalLoadKw.toFixed(1)} kW
@@ -3846,14 +3847,15 @@ window.onload = function() {
   updateFullCalcDisplay(); // Init calc values
   calculateTotalLoad(); // Init total load
 
+  // Change 2600 to 500 (half a second)
   setTimeout(() => {
     document.getElementById('splash').classList.add('hide');
     setTimeout(() => {
       document.getElementById('splash').style.display = 'none';
       document.getElementById('app').classList.add('show');
       updateCartCount(); 
-    }, 800);
-  }, 2600);
+    }, 400); // Also reduced fade out time for a snappier feel
+  }, 500);
 };
 </script>
 </body>
