@@ -716,11 +716,12 @@
   }
 
   /* The infinitely moving track (Moving Left to Right) */
-  .carousel-track {
+ .carousel-track {
     display: flex;
     gap: 20px;
-    /* Move Left to Right animation */
     animation: scrollTrackRight 25s linear infinite;
+    will-change: transform;
+    transform: translateZ(0);
   }
 
   /* Pause on hover so users can click */
