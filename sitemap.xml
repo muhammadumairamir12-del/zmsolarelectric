@@ -1,8 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-  <loc>https://zmsolarelectric.com/</loc>
-</url>
-
-</urlset>
+ <?xml version="1.0" encoding="UTF-8"?>
+            <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+                <url>
+                    <loc>https://zmsolarenergy.com/</loc>
+                    <lastmod>2026-04-16</lastmod> <!-- Aaj ki date -->
+                    <changefreq>weekly</changefreq>
+                    <priority>1.0</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=products</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=services</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>monthly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=full-calculator</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>monthly</changefreq>
+                    <priority>0.7</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=about</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>monthly</changefreq>
+                    <priority>0.7</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=contact</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>monthly</changefreq>
+                    <priority>0.7</priority>
+                </url>
+                <!-- Product Categories -->
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=solar-panels</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=inverters</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=batteries</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=generators</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=ups</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=water-pumps</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=cables-wires</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=cat&amp;param=installation</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+                <!-- Individual Product Pages (bahut important!) -->
+                <!-- Har product ke liye ek URL add karna hoga, example: -->
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=product&amp;param=1</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.9</priority>
+                </url>
+                <url>
+                    <loc>https://zmsolarenergy.com/?page=product&amp;param=2</loc>
+                    <lastmod>2026-04-16</lastmod>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.9</priority>
+                </url>
