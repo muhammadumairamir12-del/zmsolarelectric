@@ -38,7 +38,7 @@
   "logo": "https://zmsolarelectric.com/favicon.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+92-318-419-5665",
+    "telephone": "+92-309-1453343",
     "contactType": "Customer Service",
     "areaServed": "Lahore, Pakistan",
     "availableLanguage": ["en","ur"]
@@ -46,7 +46,7 @@
   "sameAs": [
     "https://www.facebook.com/your-facebook-page", <!-- AGAR HAI TOH YAHAN APNA FACEBOOK PAGE KA URL DALEIN -->
     "https://www.instagram.com/your-instagram-page", <!-- AGAR HAI TOH YAHAN APNA INSTAGRAM PAGE KA URL DALEIN -->
-    "https://wa.me/923184195665"
+    "https://wa.me/923091453343"
   ]
 }
 </script>
@@ -63,8 +63,8 @@
     "postalCode": "54000", <!-- APNA SAHI POSTAL CODE YAHAN DALEIN, AGAR PATA HAI -->
     "addressCountry": "PK"
   },
-  "telephone": "+92-318-419-5665",
-  "email": "infoskyeagle12@gmail.com",
+  "telephone": "+92-309-1453343",
+  "email": "abdullahtahir1802@gmail.com",
   "url": "https://zmsolarelectric.com",
   "priceRange": "Rs. 10000 - 500000+", <!-- APNI PRODUCTS KI SAHI PRICE RANGE YAHAN DALEIN -->
   "openingHoursSpecification": [
@@ -2143,6 +2143,50 @@
   .breadcrumb span { cursor: pointer; }
   .breadcrumb span:hover { color: var(--teal-light); } /* Light teal on hover */
   .breadcrumb .sep { color: var(--gray-mid); }
+  /* === CEO DP ANIMATION === */
+@keyframes ceo-dp-in {
+  from { opacity: 0; transform: translateY(30px) scale(0.85); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.ceo-dp-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  animation: ceo-dp-in 0.8s ease both;
+}
+
+.ceo-dp-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 4px solid var(--teal-main);
+  box-shadow: 0 8px 32px rgba(20,184,166,0.25);
+}
+
+.ceo-dp-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+.ceo-dp-role {
+  font-size: 0.82rem;
+  color: var(--teal-main);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .about-content-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
 
   /* === RESPONSIVE === */
   @media (max-width: 1024px) {
@@ -2310,8 +2354,8 @@
 
   <!-- TOPBAR -->
   <div class="topbar">
-    <span>📞 <a href="tel:+923184195665">+92 318 419 5665</a></span>
-    <span>📧 <a href="mailto:infoskyeagle12@gmail.com">infoskyeagle12@gmail.com</a></span>
+    <span>📞 <a href="tel:+923091453343">+92 309 1453343</a></span>
+    <span>📧 <a href="mailto:abdullahtahir1802@gmail.com">abdullahtahir1802@gmail.com</a></span>
     <span>⚡ Free Installation on Orders Over Rs. 50,000</span>
   </div>
 
@@ -2878,7 +2922,7 @@
               <div class="form-group"><label>First Name*</label><input type="text" id="chk-fname" placeholder="Muhammad"></div>
               <div class="form-group"><label>Last Name*</label><input type="text" id="chk-lname" placeholder="Ali"></div>
             </div>
-            <div class="form-group"><label>Phone Number*</label><input type="tel" id="chk-phone" placeholder="+92 318 419 5665"></div>
+            <div class="form-group"><label>Phone Number*</label><input type="tel" id="chk-phone" placeholder="+92 309 1453343"></div>
             <div class="form-group"><label>Email Address</label><input type="email" id="chk-email" placeholder="you@email.com"></div>
             <div class="form-group"><label>Complete Address*</label><textarea id="chk-address" rows="3" placeholder="House No., Street, Area..."></textarea></div>
             <div class="form-grid">
@@ -2947,7 +2991,7 @@
                 <div class="payment-info-item">
                     <span>Mobile Number:</span>
                     <span>
-                        <span id="jazzcash-number">123456789</span>
+                        <span id="jazzcash-number">03091453343</span>
                         <button class="copy-btn" onclick="window.copyToClipboard('jazzcash-number')">Copy</button>
                     </span>
                 </div>
@@ -2957,7 +3001,7 @@
                     <img id="jazzcash-screenshot-preview" class="payment-screenshot-preview" alt="JazzCash/EasyPaisa Screenshot">
                 </div>
                 <div class="payment-actions">
-                    <a href="https://wa.me/923184195665?text=I%20have%20made%20a%20payment%20via%20JazzCash/EasyPaisa.%20Please%20find%20the%20screenshot%20attached." target="_blank" class="whatsapp-pay-btn">
+                    <a href="https://wa.me/923091453343?text=I%20have%20made%20a%20payment%20via%20JazzCash/EasyPaisa.%20Please%20find%20the%20screenshot%20attached." target="_blank" class="whatsapp-pay-btn">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
                         Send on WhatsApp
                     </a>
@@ -2995,47 +3039,43 @@
         <p style="color:rgba(255,255,255,0.75);font-size:1.1rem;max-width:580px;margin:0 auto;">Pakistan mein solar aur power solutions ki bharosa mand company — 10 saal se zyada ka tajurba.</p>
       </div>
     </div>
-
     <section class="section">
-      <div class="container">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;" class="about-content-grid">
-          <div>
-            <div class="section-tag">Our Story</div>
-            <h2 style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);margin:14px 0 20px;line-height:1.2;">
-              Powering Pakistan With Clean Energy Since 2014
-            </h2>
-            <p style="color:var(--gray-dark);line-height:1.8;margin-bottom:16px;">
-              ZM Solar & Electric was established with a single mission: to make reliable and affordable solar energy accessible to every Pakistani household and business. Starting from Lahore, we have now served over 1,200+ satisfied customers across Punjab.
-            </p>
-            <p style="color:var(--gray-dark);line-height:1.8;margin-bottom:28px;">
-              We’ve earned a strong reputation for reliability, high-quality installations, and long-term energy savings. Whether you’re a homeowner looking to lower your electricity costs, a business aiming to reduce your carbon footprint, or a property developer integrating green energy, we provide solar systems that are custom-designed, energy-efficient, and built to last. We are authorized dealers of top brands including Jinko Solar, LONGi, Canadian Solar, Growatt, Volta Batteries, and many more — ensuring genuine, certified products with full manufacturer warranties.
-            </p>
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-              <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
-                <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">1200+</div>
-                <div style="font-size:0.85rem;color:var(--gray-mid);margin-top:4px;">Happy Customers</div>
-              </div>
-              <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
-                <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">10+</div>
-                <div style="font-size:0.85rem;color:var(--gray-mid);margin-top:4px;">Years Experience</div>
-              </div>
-              <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
-                <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">50+</div>
-                <div style="font-size:0.85rem;color:var(--gray-mid);margin-top:4px;">Brands Available</div>
-              </div>
-              <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
-                <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">25yr</div>
-                <div style="font-size:0.85rem;color:var(--gray-mid);margin-top:4px;">Panel Warranty</div>
-              </div>
-            </div>
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;" class="about-content-grid">
+      <div>
+        <div class="section-tag">Our Story</div>
+        <h2 style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);margin:14px 0 20px;line-height:1.2;">
+          Powering Pakistan With Clean Energy Since 2014
+        </h2>
+        <p style="color:var(--gray-dark);line-height:1.8;margin-bottom:16px;">
+          ZM Solar & Electric was established with a single mission: to make reliable and affordable solar energy accessible to every Pakistani household and business.
+        </p>
+        <p style="color:var(--gray-dark);line-height:1.8;margin-bottom:28px;">
+          We’ve earned a strong reputation for reliability, high-quality installations, and long-term energy savings.
+        </p>
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">1200+</div>
+            <div style="font-size:0.85rem;color:var(--gray-mid);">Happy Customers</div>
           </div>
-          <div style="background:var(--teal-pale);border-radius:28px;height:400px;display:flex;align-items:center;justify-content:center;">
-            <img src="https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/472447825_902592978690156_6359241644308974166_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeHvDXAVjLr6_fiYX4zLcJ-ahNzLzxqIygCE3MvPGojKABA8nH9clBSyLsaQlkD8_3tjfRJbM5Dm4MNG7bkSxCBa&_nc_ohc=GYlxG3BuYCoQ7kNvwFlBJHP&_nc_oc=Adps6cgIUOwKxHwu1bxU7jOYN0KMfhokIDaClDIy5Llmb16WuHXezqOFzjhel1npnpOu8uNBBLmIAtxgWYxiTDHJ&_nc_zt=23&_nc_ht=scontent.flhe2-2.fna&_nc_gid=-o7ohdqQCs8q31Hd7tQLFw&_nc_ss=7a3a8&oh=00_Af3O-V8r86DbIagx7CTHPvyHf8WKnWEHabkALyq3qx_Qwg&oe=69E53A41" alt="Hafiz Muhammad Abdullah Tahir - ZM Solar & Electric CEO">
+          <div style="background:var(--teal-pale);border-radius:16px;padding:20px;text-align:center;">
+            <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--text-dark);">10+</div>
+            <div style="font-size:0.85rem;color:var(--gray-mid);">Years Experience</div>
           </div>
         </div>
       </div>
-    </section>
+      
+      <div class="ceo-dp-wrap">
+        <img src="https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/473223317_907856241497163_1998121895139223024_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeFETn6Vv6ZK7CdeKozhRHfHWtZxdt9ZSKJa1nF231lIooiloOcpZkk0HZF2IGBAHcxsIcwyxwdSfbG7r32dnOoD&_nc_ohc=yOjF1nfXpj0Q7kNvwEla5tW&_nc_oc=AdormrhsSE2AYrFotXyNGJlWg-fkPD5_BZ5eVmN-oUYPmvwN62Vq5x-NAPR3dS4KGgI&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&_nc_gid=7UrD7sZHBh0Wh8nwLpESmQ&_nc_ss=7a3a8&oh=00_Af2s6AgBNY83NqpWB0rvyEM_OMG9kbheXjX3dpI8IuXoxg&oe=69E64017" alt="CEO ZM Solar & Electric" class="ceo-dp-img">
+        <div class="ceo-dp-name">Hafiz Muhammad Abdullah Tahir</div>
+        <div class="ceo-dp-role">CEO & Founder</div>
+      </div>
+    </div> <!-- Close grid div -->
+  </div> <!-- Close container div -->
+</section>
 
+    
     <section class="section section-alt">
       <div class="container">
         <div class="section-header">
@@ -3047,7 +3087,7 @@
             <div class="team-avatar">
               <img src="https://scontent.flhe2-3.fna.fbcdn.net/v/t39.30808-6/667325535_122128279665050417_4869446267797335965_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeEtlzyjrbdbSYBIeU9vHGasdbeqZ0C27j51t6pnQLbuPnDe_bNQgYTKj4pGxxETui9aOHm2mylu6dLz3VUkQYG0&_nc_ohc=5wsUK6By6WkQ7kNvwEkV64G&_nc_oc=Adoi5QSq2K4CeIDdVJ3lq-54GuuXKYDqIIUx-tupvPiFt9TCmQgbCmOHgEAEgWvzjJU&_nc_zt=23&_nc_ht=scontent.flhe2-3.fna&_nc_gid=E0KcTutGMAdMJbPvtoImLA&_nc_ss=7a3a8&oh=00_Af0smX-SiKYEL2wPn-dBBZeP5A_rJdOXLw2xawYW2YGnBQ&oe=69DBB4FF" alt="M Umair, CEO & Founder">
             </div>
-            <div class="team-name">M Umair</div>
+            <div class="team-name">Muhammad Abdula Tahir</div>
             <div class="team-role">CEO & Founder</div>
             <p style="font-size:0.8rem;color:var(--gray-mid);margin-top:10px;line-height:1.6;">Leading our vision with a decade of experience in renewable energy solutions.</p>
           </div>
@@ -3090,15 +3130,15 @@
           <p style="color:var(--gray-mid);line-height:1.8;margin-bottom:32px;">Free consultation, site survey, and product demo available. Just call or message us on WhatsApp!</p>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3.22H6.6a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.9a16 16 0 0 0 6.1 6.1l.94-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-            <div><div class="contact-label">Phone / WhatsApp</div><div class="contact-val"><a href="tel:+923184195665" style="color:var(--text-dark);text-decoration:none;">+92 318 419 5665</a> <a href="https://wa.me/923184195665" target="_blank" style="color:var(--green);font-weight:700;text-decoration:none;">(Chat: +92 318 419 5665)</a></div></div>
+            <div><div class="contact-label">Phone / WhatsApp</div><div class="contact-val"><a href="tel:+923091453343" style="color:var(--text-dark);text-decoration:none;">+92 309 1453343</a> <a href="https://wa.me/923091453343" target="_blank" style="color:var(--green);font-weight:700;text-decoration:none;">(Chat: +92 309 1453343)</a></div></div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-            <div><div class="contact-label">Email</div><div class="contact-val">infoskyeagle12@gmail.com</div></div>
+            <div><div class="contact-label">Email</div><div class="contact-val">abdullahtahir1802@gmail.com</div></div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-            <div><div class="contact-label">Address</div><div class="contact-val">102 Broadway Commercial Park View City, Lahore, Pakistan</div></div>
+            <div><div class="contact-label">Address</div><div class="contact-val">102 Broadway Commercial Park View City,<br>Lahore, Pakistan</div></div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal-main)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
@@ -3108,7 +3148,7 @@
         <div class="form-card" style="margin-top:0;">
           <h3>📩 Send Us a Message</h3>
           <div class="form-group"><label>Your Name*</label><input type="text" placeholder="Muhammad Ali"></div>
-          <div class="form-group"><label>Phone*</label><input type="tel" placeholder="+92 318 419 5665"></div>
+          <div class="form-group"><label>Phone*</label><input type="tel" placeholder="+92 309 1453343"></div>
           <div class="form-group"><label>Subject</label><input type="text" placeholder="Solar system inquiry"></div>
           <div class="form-group"><label>Message*</label><textarea rows="5" placeholder="Describe your power needs..."></textarea></div>
           <button class="btn-blue" style="width:100%;" onclick="window.sendMessage()">Send Message →</button>
@@ -3190,9 +3230,9 @@
             Pakistan ki bharosa mand solar & power solutions company. Ghar, dukaan, aur factory ke liye complete energy solutions.
           </p>
           <div class="footer-social">
-            <a href="#" class="social-btn" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="https://web.facebook.com/profile.php?id=61581512512602" class="social-btn" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
             <a href="#" class="social-btn" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-            <a href="https://wa.me/923184195665" target="_blank" class="social-btn" aria-label="WhatsApp ZM Solar & Electric"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+            <a href="https://wa.me/923091453343" target="_blank" class="social-btn" aria-label="WhatsApp ZM Solar & Electric"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
           </div>
         </div>
         <div class="footer-col">
@@ -3221,7 +3261,7 @@
           <h4>Contact Info</h4>
           <div class="footer-contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3.22H6.6a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.9a16 16 0 0 0 6.1 6.1l.94-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>+92 318 419 5665<br>+92 318 419 5665 (WhatsApp)</span>
+            <span>+92 309 1453343<br>+92 309 1453343 (WhatsApp)</span>
           </div>
           <div class="footer-contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -3249,7 +3289,7 @@
 </div><!-- END APP -->
 
 <!-- WhatsApp Float -->
-<a href="https://wa.me/923184195665" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+<a href="https://wa.me/923091453343" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
   <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
 </a>
 
@@ -3276,19 +3316,24 @@ const storage = firebase.storage(); // Initialize Firebase Storage
 
 
 // ============================================================
-// DATA: HARDCODED FALLBACK PRODUCTS
+// DATA: HARDCODED FALLBACK PRODUCTS (UPDATED WITH NEW IMAGES)
 // ============================================================
 window.allProducts = [
-  // SOLAR PANELS
+  // SOLAR PANELS (No changes requested, kept existing)
   { 
-    id: 1, name: 'Jinko Solar 550W Mono PERC Panel', cat: 'solar-panels', catLabel: 'Solar Panels', price: 18500, 
-    desc: '550W monocrystalline PERC panel with 25-year performance warranty. Tier 1 brand.', badge: 'Best Seller', brand: 'Jinko Solar', 
+    id: 1, name: 'Jinko Solar 550W Mono PERC Panel', cat: 'solar-panels', catLabel: 'Solar Panels', price: 18500, oldPrice: 20000,
+    desc: '550W monocrystalline PERC panel with 25-year performance warranty. Tier 1 brand.', 
+    datasheetText: 'Electrical Characteristics:\n- Maximum Power (Pmax): 550W\n- Maximum Power Voltage (Vmp): 40.90V\n- Maximum Power Current (Imp): 13.45A\n- Open-circuit Voltage (Voc): 49.62V\n- Short-circuit Current (Isc): 14.03A\n- Module Efficiency STC (%): 21.33%\n- Operating Temperature (℃): -40℃~+85℃\n\nMechanical Characteristics:\n- Cell Type: P type Mono-crystalline\n- No. of cells: 144 (6×24)\n- Dimensions: 2274×1134×35mm\n- Weight: 28.9 kg\n- Front Glass: 3.2mm, Anti-Reflection Coating\n- Frame: Anodized Aluminium Alloy\n- Junction Box: IP68 Rated\n- Output Cables: TUV 1×4.0mm2\n\nWarranty:\n12-year product warranty\n25-year linear power warranty.',
+    pdfLink: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Dummy PDF link for testing
+    badge: 'Best Seller', brand: 'Jinko Solar', 
     img: 'https://media.istockphoto.com/id/1681913304/photo/close-up-of-solar-cell.webp?a=1&b=1&s=612x612&w=0&k=20&c=VgZiLWm6zW5u_PfhYeMO013lOrXkbhdmYfrXzZu5IwM=', 
     specs: { Power: '550W', Type: 'Monocrystalline PERC', Efficiency: '21.3%', Warranty: '25 Years' } 
   },
   { 
     id: 2, name: 'LONGi Green 580W Hi-MO6', cat: 'solar-panels', catLabel: 'Solar Panels', price: 21000, 
-    desc: 'Latest LONGi Hi-MO6 technology with superior low-light performance. Anti-PID.', badge: 'New', brand: 'LONGi', 
+    desc: 'Latest LONGi Hi-MO6 technology with superior low-light performance. Anti-PID.', 
+    datasheetText: 'Advanced N-Type TOPCon cell technology. High efficiency up to 22.1%. Better degradation resistance. Complete protection against harsh weather environments including salt mist and ammonia. Built for long-term reliability.',
+    badge: 'New', brand: 'LONGi', 
     img: 'https://media.istockphoto.com/id/2169667626/photo/solar-powered-home-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=I8rJionDe2nhREMQC-crqQLrjpsOE4vddyDD0Uu8NvU=', 
     specs: { Power: '580W', Type: 'N-Type TOPCon', Efficiency: '22.1%', Warranty: '25 Years' } 
   },
@@ -3301,56 +3346,53 @@ window.allProducts = [
   { 
     id: 4, name: 'Risen Energy 500W RSM Poly', cat: 'solar-panels', catLabel: 'Solar Panels', price: 14000, 
     desc: 'Reliable polycrystalline panels ideal for budget-conscious installations.', badge: null, brand: 'Risen Energy', 
-    img: 'https://media.istockphoto.com/id/1681913304/photo/close-up-of-solar-cell.webp?a=1&b=1&s=612x612&w=0&k=20&c=VgZiLWm6zW5u_PfhYeMO013lOrXkbhdmYfrXzZu5IwM=', 
+    img: 'https://media.istockphoto.com/id/1681913304/photo/close-up-of-solar-cell.webp?a=1&b=1&s=612x612&w=0&k=20&c=VgZiLWm6zW5u_PfhYeMO13lOrXkbhdmYfrXzZu5IwM=', 
     specs: { Power: '500W', Type: 'Polycrystalline', Efficiency: '18.7%', Warranty: '25 Years' } 
   },
+  
+  // INVERTERS (UPDATED)
+  { id: 5, name: 'Knox 6.2KW IP-21 PV6600 Hybrid Inverter', cat: 'inverters', catLabel: 'Inverters', price: 95000, oldPrice: 105000, desc: '6.2kW hybrid solar inverter with advanced MPPT technology.', datasheetText: 'Max. DC Voltage: 550V\nStart Voltage: 150V\nNominal DC Voltage: 360V\nMPPT Voltage Range: 150V-550V\nNo. of MPP Trackers: 2\nMax. Input Current per Tracker: 12A\nAC Nominal Power: 5000W\nMax. AC Apparent Power: 5000VA\nNominal AC Voltage: 230V\nAC Grid Frequency: 50/60Hz', pdfLink: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', badge: 'Best Seller', brand: 'Knox', img: 'https://kamalsolar.pk/cdn/shop/files/Knox6.2KWIP-21PV6600HybridSolarInverter_1066x.png?v=1753608457', specs: { Power: '6200W', Type: 'Hybrid', Warranty: '5 Years' } },
+  { id: 6, name: 'Livoltek 10KW On-Grid 3-Phase Inverter', cat: 'inverters', catLabel: 'Inverters', price: 145000, desc: '10kW premium on-grid inverter with high PV input.', badge: 'Premium', brand: 'Livoltek', img: 'https://kamalsolar.pk/cdn/shop/files/Livoltek10KWOnGridThreePhaseSolarInverter_39454ff8-f1d0-4b2d-8364-307164578a3f_1066x.png?v=1753249281', specs: { Power: '10000W', Type: 'On-Grid', Warranty: '12 Years' } },
+  { id: 7, name: 'Knox 6KW PV8000 Hybrid Inverter', cat: 'inverters', catLabel: 'Inverters', price: 130000, desc: 'Efficient and smart inverter for stable power supply.', badge: 'Smart', brand: 'Knox', img: 'https://kamalsolar.pk/cdn/shop/files/Knox6KWpv8000Hybrid_59db06cd-306f-4afd-980a-645934a4a6b7_1066x.png?v=1752058053', specs: { Power: '6000W', Type: 'Hybrid', Warranty: '5 Years' } },
+  { id: 8, name: 'Hybrid 4.7KW IP-54 Solar Inverter', cat: 'inverters', catLabel: 'Inverters', price: 85000, desc: 'Dust and water-resistant IP-54 rated hybrid inverter for tough environments.', badge: 'New', brand: 'Generic', img: 'https://kamalsolar.pk/cdn/shop/files/Hybrid4.7-KWIP-54_1066x.png?v=1772108016', specs: { Power: '4700W', Type: 'Hybrid', Warranty: '5 Years' } },
 
-  // INVERTERS
-  { id: 5, name: 'Growatt SPH 5000 Hybrid Inverter', cat: 'inverters', catLabel: 'Inverters', price: 95000, desc: '5kW hybrid solar inverter with built-in MPPT.', badge: 'Best Seller', brand: 'Growatt', img: 'https://kamalsolar.pk/cdn/shop/files/Knox04KWHybrid_1-min_750x.png?v=1737898390', specs: { Power: '5000W', Type: 'Hybrid', Warranty: '5 Years' } },
-  { id: 6, name: 'SolarEdge SE10K On-Grid Inverter', cat: 'inverters', catLabel: 'Inverters', price: 145000, desc: '10kW premium on-grid inverter with DC optimizers.', badge: 'Premium', brand: 'SolarEdge', img: 'https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_750x.png?v=1738083132', specs: { Power: '10000W', Type: 'On-Grid', Warranty: '12 Years' } },
-  { id: 8, name: 'Deye 8kW Hybrid 3-Phase', cat: 'inverters', catLabel: 'Inverters', price: 185000, desc: '3-phase hybrid inverter for commercial installations.', badge: 'Commercial', brand: 'Deye', img: 'https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_750x.png?v=1738083132', specs: { Power: '8000W', Type: 'Hybrid 3-Phase', Warranty: '5 Years' } },
+  // BATTERIES (UPDATED)
+  { id: 10, name: 'Powerwall 3.0 25.6V 100Ah', cat: 'batteries', catLabel: 'Batteries', price: 75000, desc: 'Compact powerwall solution for home backup.', badge: 'New', brand: 'Powerwall', img: 'https://kamalsolar.pk/cdn/shop/files/Powerwall3.025.6v100A_1066x.png?v=1762176444', specs: { Capacity: '2.56kWh', Voltage: '25.6V', Warranty: '7 Years' } },
+  { id: 11, name: 'Powerwall 6.0 51.2V 100Ah', cat: 'batteries', catLabel: 'Batteries', price: 140000, desc: 'High-capacity powerwall for extended backup.', badge: null, brand: 'Powerwall', img: 'https://kamalsolar.pk/cdn/shop/files/Powerwall6.051.2V-100AH_1066x.png?v=1775473673', specs: { Capacity: '5.12kWh', Voltage: '51.2V', Warranty: '7 Years' } },
+  { id: 12, name: '16KW 314Ah IP-65 Lithium Battery', cat: 'batteries', catLabel: 'Batteries', price: 300000, desc: 'Industrial grade lithium battery with IP-65 rating.', badge: 'Industrial', brand: 'Generic', img: 'https://kamalsolar.pk/cdn/shop/files/16KW314AmpIP-65_1066x.png?v=1773311964', specs: { Capacity: '16kWh', Voltage: '51.2V', Warranty: '10 Years' } },
 
-  // BATTERIES
-  { id: 9, name: 'Pylon Tech US3000C 3.5kWh LiFePO4', cat: 'batteries', catLabel: 'Batteries', price: 115000, desc: 'Lithium iron phosphate battery with 6000+ cycles.', badge: 'Premium', brand: 'Pylontech', img: 'https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_-min_750x.png?v=1737954600', specs: { Capacity: '3.5kWh', Voltage: '48V', Warranty: '10 Years' } },
-  { id: 10, name: 'Volta 200Ah AGM Battery', cat: 'batteries', catLabel: 'Batteries', price: 28000, desc: 'Maintenance-free sealed AGM battery.', badge: 'Popular', brand: 'Volta', img: 'https://t4.ftcdn.net/jpg/04/95/13/69/360_F_495136962_fxansiKO1v1KC15PS8WLAK85aD0Ag1Kq.jpg', specs: { Capacity: '200Ah', Voltage: '12V', Warranty: '2 Years' } },
+  // GENERATORS (UPDATED)
+  { id: 13, name: 'Portable Electric Generator 1', cat: 'generators', catLabel: 'Generators', price: 85000, desc: 'Reliable Honda petrol generator with OHC engine.', badge: 'Best Seller', brand: 'Honda', img: 'https://media.istockphoto.com/id/182192586/photo/portable-electric-generator.jpg?s=612x612&w=0&k=20&c=xQzHBE_g29RdGV-AZbqek0JQzHifxOD-z3lExi1MfDs=', specs: { Power: '2.5kVA', Fuel: 'Petrol', Warranty: '2 Years' } },
+  { id: 14, name: 'Petrol Generator 2 for Emergency', cat: 'generators', catLabel: 'Generators', price: 75000, desc: 'Emergency petrol generator for home use.', badge: null, brand: 'Generic', img: 'https://c8.alamy.com/comp/E4YW1R/petrol-generator-to-make-electricity-in-an-emergency-or-for-a-remote-E4YW1R.jpg', specs: { Power: '2kVA', Fuel: 'Petrol', Warranty: '1 Year' } },
+  { id: 15, name: 'Portable Diesel Generator 3', cat: 'generators', catLabel: 'Generators', price: 120000, desc: 'Heavy-duty portable diesel generator.', badge: 'Diesel', brand: 'Generic', img: 'https://powerup-tech.com/wp-content/uploads/2021/03/portable-diesel-generator.jpg', specs: { Power: '5kVA', Fuel: 'Diesel', Warranty: '2 Years' } },
+  { id: 150, name: 'Compact Portable Generator', cat: 'generators', catLabel: 'Generators', price: 60000, desc: 'Small and efficient generator for basic power needs.', badge: null, brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAst-AvBwqR-UydIW-sg-8-22CVu8mYvtGEw&s', specs: { Power: '1.5kVA', Fuel: 'Petrol', Warranty: '1 Year' } },
 
-  // GENERATORS
-  { id: 13, name: 'Honda EP2500 2.5kVA Generator', cat: 'generators', catLabel: 'Generators', price: 85000, desc: 'Reliable Honda petrol generator with OHC engine.', badge: 'Best Seller', brand: 'Honda', img: 'https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?w=600&auto=format&fit=crop&q=60', specs: { Power: '2500VA', Fuel: 'Petrol', Warranty: '2 Years' } },
 
-  // UPS SYSTEMS
-  { id: 16, name: 'APC Smart-UPS 2kVA Online', cat: 'ups', catLabel: 'UPS Systems', price: 72000, desc: 'True online double-conversion UPS for servers.', badge: 'Best Seller', brand: 'APC', img: 'https://images.unsplash.com/photo-1604251806132-6b149e8e6730?w=600&auto=format&fit=crop&q=60', specs: { Power: '2000VA', Transfer: '0ms', Warranty: '2 Years' } },
+  // UPS SYSTEMS (UPDATED)
+  { id: 16, name: 'Uninterruptible Power Supply (UPS)', cat: 'ups', catLabel: 'UPS Systems', price: 72000, desc: 'Reliable UPS backup for home and office electronics.', badge: 'Best Seller', brand: 'APC', img: 'https://www.shutterstock.com/image-photo/uninterruptible-power-supply-backup-ups-260nw-2452490307.jpg', specs: { Power: '2000VA', Transfer: '0ms', Warranty: '2 Years' } },
+  { id: 17, name: 'Emergency Power Supply with Battery', cat: 'ups', catLabel: 'UPS Systems', price: 65000, desc: 'Emergency power supply with pure sinusoidal output.', badge: 'Emergency', brand: 'Generic', img: 'https://media.istockphoto.com/id/1781754643/photo/emergency-power-supply-with-a-12v-65ah-battery-providing-uninterrupted-pure-sinusoidal.jpg?s=612x612&w=0&k=20&c=TGe5bmFxm7z_eNNTM8T1Imx-eDwHZinNJ4A34ws0GJc=', specs: { Power: '1500VA', Transfer: '<10ms', Warranty: '1 Year' } },
+  { id: 18, name: 'Compact Home UPS', cat: 'ups', catLabel: 'UPS Systems', price: 45000, desc: 'Compact and efficient UPS for small loads.', badge: null, brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVd-dsbRIyrIPKF--pg_bP2RqdZbEoTK8Vqg&s', specs: { Power: '1000VA', Transfer: '<20ms', Warranty: '1 Year' } },
+  { id: 180, name: 'Office UPS System', cat: 'ups', catLabel: 'UPS Systems', price: 85000, desc: 'Advanced UPS with stabilizer for computer systems.', badge: 'Office', brand: 'Generic', img: 'https://static.vecteezy.com/system/resources/thumbnails/015/747/928/small/uninterruptible-power-supply-on-white-background-backup-power-ups-with-battery-ups-with-stabilizer-for-home-pc-ups-inverter-equipment-for-computer-system-at-office-for-security-power-protection-photo.JPG', specs: { Power: '2500VA', Transfer: '0ms', Warranty: '2 Years' } },
 
-  // WATER PUMPS
-  { 
-    id: 19, name: 'Lorentz PS2 Solar Water Pump', cat: 'water-pumps', catLabel: 'Water Pumps', price: 45000, 
-    desc: 'DC solar submersible pump for agricultural use. Works directly on solar panels.', badge: 'Agricultural', brand: 'Lorentz', 
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNSNqd3HvUNyb_sxvdXLiwlTREaSquRNu2g&s', 
-    specs: { Flow: '3m³/hour', MaxHead: '80m', Warranty: '3 Years' } 
-  },
-  { 
-    id: 20, name: 'Grundfos SQ Solar Pump System', cat: 'water-pumps', catLabel: 'Water Pumps', price: 68000, 
-    desc: 'Complete solar pump system for bore holes up to 100m depth.', badge: 'Complete Kit', brand: 'Grundfos', 
-    img: 'https://t3.ftcdn.net/jpg/02/39/23/98/360_F_239239871_989YEqgLnwsEDqoW3GpMXCl0NWxJHLyG.jpg', 
-    specs: { Flow: '5m³/hour', MaxHead: '100m', Warranty: '2 Years' } 
-  },
 
-  // CABLES & WIRES
-  { 
-    id: 21, name: 'Copper Wires (10mm)', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 2200, 
-    desc: 'High-quality copper wires for solar installations, resistant to heat.', badge: 'Best Seller', brand: 'Generic', 
-    img: 'https://www.kei-ind.com/wp-content/uploads/2023/06/benefits-and-types-of-electrical-wire.jpg', 
-    specs: { Type: 'Copper', Gauge: '10mm', Length: '100m Roll' } 
-  },
-  { 
-    id: 22, name: 'Solar DC Cable (4mm² Red/Black)', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 1500, 
-    desc: 'UV resistant solar DC cables for connecting panels to inverters.', badge: null, brand: 'Generic', 
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQj28oqGt0eDXHXLW3R69L3_n-fd28B6Frw&s', 
-    specs: { Type: 'Solar DC', Gauge: '4mm²', UVResistant: 'Yes' } 
-  },
+  // WATER PUMPS (UPDATED)
+  { id: 19, name: 'Solar Submersible Water Pump', cat: 'water-pumps', catLabel: 'Water Pumps', price: 45000, desc: 'DC solar submersible pump for agricultural use. Works directly on solar panels.', badge: 'Agricultural', brand: 'Lorentz', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNSNqd3HvUNyb_sxvdXLiwlTREaSquRNu2g&s', specs: { Flow: '3m³/hour', MaxHead: '80m', Warranty: '3 Years' } },
+  { id: 20, name: 'Household Water Pump', cat: 'water-pumps', catLabel: 'Water Pumps', price: 18000, desc: 'Standard household water pump for domestic use.', badge: 'Domestic', brand: 'Generic', img: 'https://www.shutterstock.com/image-photo/white-background-household-water-pump-260nw-2541247365.jpg', specs: { Flow: '2m³/hour', MaxHead: '30m', Warranty: '1 Year' } },
+  { id: 200, name: 'Industrial Water Pumps', cat: 'water-pumps', catLabel: 'Water Pumps', price: 35000, desc: 'Heavy-duty water pumps for industrial and commercial applications.', badge: 'Industrial', brand: 'Generic', img: 'https://media.gettyimages.com/id/1303278496/photo/water-pumps.jpg?s=170667a&w=gi&k=20&c=zsZYxsyqejtTu2pHPL3F3B2cMgAZPb4R_ZXUf1P61fU=', specs: { Flow: '10m³/hour', MaxHead: '50m', Warranty: '1.5 Years' } },
+  { id: 201, name: 'Small Agricultural Pump', cat: 'water-pumps', catLabel: 'Water Pumps', price: 25000, desc: 'Efficient pump for small-scale agriculture.', badge: null, brand: 'Generic', img: 'https://t3.ftcdn.net/jpg/01/07/62/80/360_F_107628034_EbQDMZtvyReP4i8dWJbFDmfxQUPONiwS.jpg', specs: { Flow: '4m³/hour', MaxHead: '40m', Warranty: '1 Year' } },
+  { id: 202, name: 'High-Pressure Water Pump', cat: 'water-pumps', catLabel: 'Water Pumps', price: 55000, desc: 'Water pump designed for high-pressure applications.', badge: 'High Pressure', brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMq_G8VcdoQdVJm7cPwyKaz80zQX_7vlcqXRKbiL_H6oG2J4I384t-k0&s', specs: { Flow: '6m³/hour', MaxHead: '100m', Warranty: '2 Years' } },
 
-  // SERVICES
-  { id: 101, name: 'Home Solar Installation', cat: 'installation', catLabel: 'Installation', price: 50000, desc: 'Professional rooftop installation for standard home systems.', badge: 'Popular', brand: 'ZM Solar', img: 'https://plus.unsplash.com/premium_photo-1682148205811-e8a8ce759f4b?w=600&auto=format&fit=crop&q=60', isService: true },
-  { id: 102, name: 'Commercial Installation', cat: 'installation', catLabel: 'Installation', price: 150000, desc: 'Large scale commercial solar installations.', badge: null, brand: 'ZM Solar', img: 'https://plus.unsplash.com/premium_photo-1682148205811-e8a8ce759f4b?w=600&auto=format&fit=crop&q=60', isService: true }
+  // CABLES & WIRES (UPDATED)
+  { id: 21, name: 'Electrical Cables Assortment', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 2200, desc: 'High-quality copper wires for solar installations, resistant to heat.', badge: 'Best Seller', brand: 'Generic', img: 'https://media.istockphoto.com/id/144349803/photo/cables.jpg?s=612x612&w=0&k=20&c=7fht36zJSEXu3j1XQCEC9bMGt4n95AGGkC5GafmHd5o=', specs: { Type: 'Copper', Gauge: '10mm', Length: '100m Roll' } },
+  { id: 22, name: 'Assorted Electrical Wires', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 1500, desc: 'UV resistant solar DC cables for connecting panels to inverters.', badge: null, brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVEcdVwgibEhY9elq7QvZ6iRePcJBAYA5v4q3UhgkOw&s', specs: { Type: 'Solar DC', Gauge: '4mm²', UVResistant: 'Yes' } },
+  { id: 23, name: 'Industrial Grade Cables', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 3000, desc: 'Heavy-duty cables for industrial applications, high durability.', badge: 'Industrial', brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3dUjkZntkAoF78xX9GzOLVzDd6BbulVIjiA&s', specs: { Type: 'Industrial', Gauge: '16mm', Length: '50m Roll' } },
+  { id: 24, name: 'Solar PV Cables', cat: 'cables-wires', catLabel: 'Cables & Wires', price: 1800, desc: 'Specialized cables for photovoltaic systems, weatherproof.', badge: 'Solar Specific', brand: 'Generic', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx69Lk76s-BWvyssRVS-eYjGZeipahpXDk6Q&s', specs: { Type: 'Solar PV', Gauge: '6mm²', Weatherproof: 'Yes' } },
+
+  // SERVICES (UPDATED)
+  { id: 101, name: 'Home Solar Panel Installation', cat: 'installation', catLabel: 'Installation', price: 50000, desc: 'Professional rooftop installation for standard home systems.', badge: 'Popular', brand: 'ZM Solar', img: 'https://media.istockphoto.com/id/114338035/photo/solar-panel-installation.jpg?s=612x612&w=0&k=20&c=P3K0opLbTHWjGYS5FUg6wHKcJEDW4WoXWmy2WRM_4-o=', isService: true },
+  { id: 102, name: 'Commercial Solar Installation', cat: 'installation', catLabel: 'Installation', price: 150000, desc: 'Large scale commercial solar installations.', badge: null, brand: 'ZM Solar', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-p2AXD3m08G0JvvsnOq7r_Uy0BWLPJGansQ&s', isService: true },
+  { id: 103, name: 'Residential Solar Installation', cat: 'installation', catLabel: 'Installation', price: 75000, desc: 'Custom residential solar solutions for energy independence.', badge: 'Residential', brand: 'ZM Solar', img: 'https://www.sunrayspower.com.au/wp-content/uploads/2024/10/residnetial-solar-5-1024x684.jpg', isService: true },
+  { id: 104, name: 'Inverter System Installation', cat: 'installation', catLabel: 'Installation', price: 30000, desc: 'Expert installation of inverter systems for reliable power.', badge: 'Inverter', brand: 'ZM Solar', img: 'https://static.vecteezy.com/system/resources/thumbnails/071/075/769/small/renewable-energy-unbranded-inverter-cabinet-with-blank-faceplate-in-coastal-dike-crown-holding-neatvoltaic-photo.jpg', isService: true }
 ];
 
 // State variables
@@ -3365,12 +3407,12 @@ let paymentScreenshotFile = null; // To hold the uploaded file temporarily
 const paymentInfo = {
     jazzcash: {
         accountHolder: 'ZM Solar & Electric',
-        mobileNumber: '03184195665' // Placeholder JazzCash/EasyPaisa number
+        mobileNumber: '03091453343' 
     },
     bankTransfer: {
         accountHolder: 'ZM Solar & Electric',
         bankName: 'Habib Bank Limited (HBL)',
-        iban: 'PKXX XXXX XXXX XXXX XXXX XXXX' // Placeholder IBAN
+        iban: 'PKXX XXXX XXXX XXXX XXXX XXXX' // Placeholder IBAN (PLEASE UPDATE THIS)
     }
 };
 
@@ -3386,17 +3428,17 @@ const appliancePower = {
 
 function getCatImageHtml(cat) {
   const images = {
-    'solar-panels': `https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_750x.png?v=1738083132`,
-    'inverters': `https://kamalsolar.pk/cdn/shop/files/Knox04KWHybrid_1-min_750x.png?v=1737898390`,
-    'batteries': `https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_-min_750x.png?v=1737954600`,
-    'generators': `https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3RyaWNpdHklMjBnZW5lcmF0b3J8ZW58MHx8MHx8fDB%3D`,
-    'ups': `https://images.unsplash.com/photo-1604251806132-6b149e8e6730?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
-    'water-pumps': `https://t4.ftcdn.net/jpg/04/95/13/69/360_F_495136962_fxansiKO1v1KC15PS8WLAK85aD0Ag1Kq.jpg`,
-    'cables-wires': `https://static.vecteezy.com/system/resources/thumbnails/052/366/812/small/coils-of-colored-electrical-wires-on-white-background-photo.jpg`,
-    'installation': `https://plus.unsplash.com/premium_photo-1682148205811-e8a8ce759f4b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29tcGxldGUl20step%20installation%20solar|service`,
+    'solar-panels': `https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_750x.png?v=1738083132`, // Kept as is
+    'inverters': `https://kamalsolar.pk/cdn/shop/files/LIVOLTEK6.2KWsolarinverterhybrid_1066x.png?v=1751349951`, // Updated to first new inverter image
+    'batteries': `https://kamalsolar.pk/cdn/shop/files/DynessLithiumBattery51.2V100Amp_1066x.png?v=1763548804`, // Updated to first new battery image
+    'generators': `https://media.istockphoto.com/id/182192586/photo/portable-electric-generator.jpg?s=612x612&w=0&k=20&c=xQzHBE_g29RdGV-AZbqek0JQzHifxOD-z3lExi1MfDs=`, // Updated to first new generator image
+    'ups': `https://www.shutterstock.com/image-photo/uninterruptible-power-supply-backup-ups-260nw-2452490307.jpg`, // Updated to first new UPS image
+    'water-pumps': `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNSNqd3HvUNyb_sxvdXLiwlTREaSquRNu2g&s`, // Updated to first new water pump image
+    'cables-wires': `https://media.istockphoto.com/id/144349803/photo/cables.jpg?s=612x612&w=0&k=20&c=7fht36zJSEXu3j1XQCEC9bMGt4n95AGGkC5GafmHd5o=`, // Updated to first new cables image
+    'installation': `https://media.istockphoto.com/id/114338035/photo/solar-panel-installation.jpg?s=612x612&w=0&k=20&c=P3K0opLbTHWjGYS5FUg6wHKcJEDW4WoXWmy2WRM_4-o=`, // Updated to first new installation image
   };
   const imgUrl = images[cat];
-  if (imgUrl) return `<img class="cat-icon-img" src="${imgUrl}" alt="${cat.replace('-',' ').toUpperCase()} products">`; // Alt text added
+  if (imgUrl) return `<img class="cat-icon-img" src="${imgUrl}" alt="${cat.replace('-',' ').toUpperCase()} products">`;
   return `<svg viewBox="0 0 60 60" fill="none" stroke="var(--teal-main)" stroke-width="2"><rect x="5" y="14" width="50" height="32" rx="3"/><line x1="20" y1="14" x2="20" y2="46"/><line x1="40" y1="14" x2="40" y2="46"/><line x1="5" y1="30" x2="55" y2="30"/></svg>`;
 }
 
@@ -3424,7 +3466,7 @@ function renderProductCard(p) {
   const inCart = cart.find(c => c.id === p.id);
   return `<div class="product-card" onclick="window.navigate('product', ${p.id})">
     <div class="product-img">
-      ${p.img ? `<img src="${p.img}" alt="${p.name} from ZM Solar & Electric" loading="lazy" decoding="async">` : getCatImageHtml(p.cat)} <!-- Alt text added -->
+      ${p.img ? `<img src="${p.img}" alt="${p.name}" loading="lazy" decoding="async">` : getCatImageHtml(p.cat)}
       ${p.badge ? `<div class="product-badge">${p.badge}</div>` : ''}
       ${p.oldPrice ? `<div style="position:absolute; top:12px; right:12px; background:var(--danger); color:white; font-size:0.7rem; font-weight:bold; padding:4px 8px; border-radius:100px;">Sale</div>` : ''}
     </div>
@@ -3449,13 +3491,13 @@ function renderCategoryShowcase() {
   const container = document.getElementById('cat-showcase-container');
   const displayCategories = [
     { id: 'solar-panels', name: 'Solar Panels', img: 'https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_750x.png?v=1738083132' },
-    { id: 'inverters', name: 'Inverters', img: 'https://kamalsolar.pk/cdn/shop/files/Knox04KWHybrid_1-min_750x.png?v=1737898390' },
-    { id: 'batteries', name: 'Batteries', img: 'https://kamalsolar.pk/cdn/shop/files/Knox_03KW_Hybrid_1_-min_750x.png?v=1737954600' },
-    { id: 'generators', name: 'Generators', img: 'https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3RyaWNpdHklMjBnZW5lcmF0b3J8ZW58MHx8MHx8fDB%3D' },
-    { id: 'ups', name: 'UPS Systems', img: 'https://images.unsplash.com/photo-1604251806132-6b149e8e6730?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-    { id: 'water-pumps', name: 'Water Pumps', img: 'https://t4.ftcdn.net/jpg/04/95/13/69/360_F_495136962_fxansiKO1v1KC15PS8WLAK85aD0Ag1Kq.jpg' },
-    { id: 'cables-wires', name: 'Cables & Wires', img: 'https://static.vecteezy.com/system/resources/thumbnails/052/366/812/small/coils-of-colored-electrical-wires-on-white-background-photo.jpg' },
-    { id: 'installation', name: 'Installation Services', img: 'https://plus.unsplash.com/premium_photo-1682148205811-e8a8ce759f4b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29tcGxldGUl20step%20installation%20solar|service' }
+    { id: 'inverters', name: 'Inverters', img: 'https://kamalsolar.pk/cdn/shop/files/LIVOLTEK6.2KWsolarinverterhybrid_1066x.png?v=1751349951' },
+    { id: 'batteries', name: 'Batteries', img: 'https://kamalsolar.pk/cdn/shop/files/DynessLithiumBattery51.2V100Amp_1066x.png?v=1763548804' },
+    { id: 'generators', name: 'Generators', img: 'https://media.istockphoto.com/id/182192586/photo/portable-electric-generator.jpg?s=612x612&w=0&k=20&c=xQzHBE_g29RdGV-AZbqek0JQzHifxOD-z3lExi1MfDs=' },
+    { id: 'ups', name: 'UPS Systems', img: 'https://www.shutterstock.com/image-photo/uninterruptible-power-supply-backup-ups-260nw-2452490307.jpg' },
+    { id: 'water-pumps', name: 'Water Pumps', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNSNqd3HvUNyb_sxvdXLiwlTREaSquRNu2g&s' },
+    { id: 'cables-wires', name: 'Cables & Wires', img: 'https://media.istockphoto.com/id/144349803/photo/cables.jpg?s=612x612&w=0&k=20&c=7fht36zJSEXu3j1XQCEC9bMGt4n95AGGkC5GafmHd5o=' },
+    { id: 'installation', name: 'Installation Services', img: 'https://media.istockphoto.com/id/114338035/photo/solar-panel-installation.jpg?s=612x612&w=0&k=20&c=P3K0opLbTHWjGYS5FUg6wHKcJEDW4WoXWmy2WRM_4-o=' }
   ];
 
   let html = '';
@@ -3471,7 +3513,7 @@ function renderCategoryShowcase() {
       html += `
         <div class="cat-showcase-row">
           <div class="cat-showcase-left" onclick="${leftClickAction}">
-            <img src="${cat.img}" alt="${cat.name} in Lahore" loading="lazy"> <!-- Alt text added -->
+            <img src="${cat.img}" alt="${cat.name}" loading="lazy">
             <div class="cat-showcase-overlay">
               <h3 class="cat-showcase-title">${cat.name}</h3>
               <div class="cat-showcase-link">View All Products <span>→</span></div>
@@ -3572,7 +3614,7 @@ window.requestFullQuote = function() {
       <div class="pkg-price-box">
         <div style="font-size:0.85rem; font-weight:700; color:var(--gray-mid);">Estimated Cost</div>
         <div class="pkg-total">${formatPrice(pkg1Total)}</div>
-        <a href="https://wa.me/923184195665?text=Hi, I need a detailed quote for a ${systemSizeKw}kW standard ${isHybrid ? 'hybrid' : 'on-grid'} solar package. My estimated bill is Rs. ${avgBill} and units are ${avgUnits}. Full Name: ${fullName}, Phone: ${phone}, Address: ${address}, ${city}." target="_blank" class="wa-animated-btn" style="width:100%; display:inline-flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; padding: 14px; text-decoration:none;">Get Detailed Quote</a>
+        <a href="https://wa.me/923091453343?text=Hi, I need a detailed quote for a ${systemSizeKw}kW standard ${isHybrid ? 'hybrid' : 'on-grid'} solar package. My estimated bill is Rs. ${avgBill} and units are ${avgUnits}. Full Name: ${fullName}, Phone: ${phone}, Address: ${address}." target="_blank" class="wa-animated-btn" style="width:100%; display:inline-flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; padding: 14px; text-decoration:none;">Get Detailed Quote</a>
       </div>
     </div>
   `;
@@ -3584,28 +3626,18 @@ window.requestFullQuote = function() {
 window.navigate = function(page, param = null) {
   if (currentPage === page && currentCat === param) return; 
   
-  // Update canonical tag dynamically for SEO
-  let canonicalUrl = `https://zmsolarelectric.com`; // Base URL for your GitHub Pages
-  const basePath = "https://zmsolarelectric.com"; // Replace with your actual GitHub Pages URL if different
+  let canonicalUrl = `https://zmsolarelectric.com`; 
+  const basePath = "https://zmsolarelectric.com"; 
 
-  if (page === 'products') {
-    canonicalUrl = `${basePath}/?page=products`;
-  } else if (page === 'cat' && param) {
-    canonicalUrl = `${basePath}/?page=cat&param=${param}`;
-  } else if (page === 'product' && param) {
-    canonicalUrl = `${basePath}/?page=product&param=${param}`;
-  } else if (page === 'services') {
-    canonicalUrl = `${basePath}/?page=services`;
-  } else if (page === 'about') {
-    canonicalUrl = `${basePath}/?page=about`;
-  } else if (page === 'contact') {
-    canonicalUrl = `${basePath}/?page=contact`;
-  } else if (page === 'full-calculator') {
-    canonicalUrl = `${basePath}/?page=full-calculator`;
-  } // No need for 'home' explicitly as it's the default base URL
+  if (page === 'products') canonicalUrl = `${basePath}/?page=products`;
+  else if (page === 'cat' && param) canonicalUrl = `${basePath}/?page=cat&param=${param}`;
+  else if (page === 'product' && param) canonicalUrl = `${basePath}/?page=product&param=${param}`;
+  else if (page === 'services') canonicalUrl = `${basePath}/?page=services`;
+  else if (page === 'about') canonicalUrl = `${basePath}/?page=about`;
+  else if (page === 'contact') canonicalUrl = `${basePath}/?page=contact`;
+  else if (page === 'full-calculator') canonicalUrl = `${basePath}/?page=full-calculator`;
   
   document.querySelector('link[rel="canonical"]').setAttribute('href', canonicalUrl);
-
 
   history.pushState({ page, param }, "", "?page=" + page + (param ? "&param=" + param : ""));
   applyRoute(page, param);
@@ -3645,7 +3677,7 @@ function applyRoute(page, param) {
   } else if (page === 'checkout') {
     document.getElementById('page-checkout').classList.add('active');
     renderCheckoutSummary();
-    window.togglePaymentDetails(); // Ensure payment details are rendered/toggled correctly
+    window.togglePaymentDetails(); 
   } else if (page === 'success') {
     document.getElementById('page-success').classList.add('active');
   } else if (page === 'about') {
@@ -3664,26 +3696,16 @@ function applyRoute(page, param) {
 window.goBack = function() { history.back(); }
 
 window.addEventListener('popstate', function(e) {
-  // Update canonical tag when navigating back/forward
   let canonicalUrl = `https://zmsolarelectric.com`;
-  const basePath = "https://zmsolarelectric.com"; // Replace with your actual GitHub Pages URL if different
-
+  const basePath = "https://zmsolarelectric.com"; 
   if (e.state && e.state.page) {
-      if (e.state.page === 'products') {
-          canonicalUrl = `${basePath}/?page=products`;
-      } else if (e.state.page === 'cat' && e.state.param) {
-          canonicalUrl = `${basePath}/?page=cat&param=${e.state.param}`;
-      } else if (e.state.page === 'product' && e.state.param) {
-          canonicalUrl = `${basePath}/?page=product&param=${e.state.param}`;
-      } else if (e.state.page === 'services') {
-          canonicalUrl = `${basePath}/?page=services`;
-      } else if (e.state.page === 'about') {
-          canonicalUrl = `${basePath}/?page=about`;
-      } else if (e.state.page === 'contact') {
-          canonicalUrl = `${basePath}/?page=contact`;
-      } else if (e.state.page === 'full-calculator') {
-          canonicalUrl = `${basePath}/?page=full-calculator`;
-      }
+      if (e.state.page === 'products') canonicalUrl = `${basePath}/?page=products`;
+      else if (e.state.page === 'cat' && e.state.param) canonicalUrl = `${basePath}/?page=cat&param=${e.state.param}`;
+      else if (e.state.page === 'product' && e.state.param) canonicalUrl = `${basePath}/?page=product&param=${e.state.param}`;
+      else if (e.state.page === 'services') canonicalUrl = `${basePath}/?page=services`;
+      else if (e.state.page === 'about') canonicalUrl = `${basePath}/?page=about`;
+      else if (e.state.page === 'contact') canonicalUrl = `${basePath}/?page=contact`;
+      else if (e.state.page === 'full-calculator') canonicalUrl = `${basePath}/?page=full-calculator`;
   }
   document.querySelector('link[rel="canonical"]').setAttribute('href', canonicalUrl);
 
@@ -3706,14 +3728,14 @@ function renderAllProducts() {
 
 function renderCategoryPage(catSlug) {
   const catNames = {
-    'solar-panels': ['Solar Panels in Lahore', 'High-efficiency mono & poly panels from top international brands for Lahore'], // Lahore added
-    'inverters': ['Inverters in Lahore', 'On-grid, off-grid, and hybrid inverters for every system size in Lahore'], // Lahore added
-    'batteries': ['Batteries for Solar in Lahore', 'Lithium, AGM, and Gel batteries for solar storage solutions in Lahore'], // Lahore added
-    'generators': ['Generators in Lahore', 'Reliable petrol and diesel generators for backup power needs in Lahore'], // Lahore added
-    'ups': ['UPS Systems in Lahore', 'Uninterruptible power supply for homes and businesses in Lahore'], // Lahore added
-    'water-pumps': ['Solar Water Pumps in Lahore', 'DC solar pumps for agriculture and domestic water supply in Lahore'], // Lahore added
-    'cables-wires': ['Solar Cables & Wires in Lahore', 'High-quality wires and cables for solar and electrical installations in Lahore'], // Lahore added
-    'installation': ['Solar Installation Services Lahore', 'Expert solar system installation services across Lahore'], // Lahore added
+    'solar-panels': ['Solar Panels in Lahore', 'High-efficiency mono & poly panels from top international brands for Lahore'], 
+    'inverters': ['Inverters in Lahore', 'On-grid, off-grid, and hybrid inverters for every system size in Lahore'], 
+    'batteries': ['Batteries for Solar in Lahore', 'Lithium, AGM, and Gel batteries for solar storage solutions in Lahore'], 
+    'generators': ['Generators in Lahore', 'Reliable petrol and diesel generators for backup power needs in Lahore'], 
+    'ups': ['UPS Systems in Lahore', 'Uninterruptible power supply for homes and businesses in Lahore'], 
+    'water-pumps': ['Solar Water Pumps in Lahore', 'DC solar pumps for agriculture and domestic water supply in Lahore'], 
+    'cables-wires': ['Solar Cables & Wires in Lahore', 'High-quality wires and cables for solar and electrical installations in Lahore'], 
+    'installation': ['Solar Installation Services Lahore', 'Expert solar system installation services across Lahore'], 
   };
   const [title, sub] = catNames[catSlug] || ['Products', ''];
   document.getElementById('cat-page-title').textContent = title;
@@ -3725,9 +3747,8 @@ function renderCategoryPage(catSlug) {
     : '<div class="empty-state"><h3>No products in this category yet</h3></div>';
 }
 
-
 // ============================================================
-// UPDATED PRODUCT DETAIL PAGE (PDF BROCHURE ADDED)
+// UPDATED PRODUCT DETAIL PAGE (AAP KI PASAND KA DATASHEET DESIGN)
 // ============================================================
 function renderProductDetail(id) {
   currentProductId = id;
@@ -3749,23 +3770,35 @@ function renderProductDetail(id) {
     <span>${p.name}</span>
   `;
 
-  // YAHAN PAR NAYA PDF BROCHURE WALA SECTION BANAYA HAI
-  let brochureHtml = '';
-  if (p.pdfLink) {
-    brochureHtml = `
-      <div style="margin-top: 30px; padding: 20px; border: 1.5px solid var(--teal-fade); border-radius: 16px; background: var(--teal-pale);">
-        <div style="display:flex; align-items:center; gap: 12px; margin-bottom: 16px;">
-          <div style="width:40px; height:40px; background:white; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#ef4444;">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-          </div>
-          <div>
-            <div style="font-weight:700; font-size:1rem; color:var(--text-dark);">Product Datasheet</div>
-            <div style="font-size:0.8rem; color:var(--gray-mid);">PDF Document</div>
-          </div>
+  // AAP KI PASAND KA DATASHEET WALA SECTION
+  let datasheetHtml = '';
+  if (p.datasheetText || p.pdfLink) {
+    const isLongText = p.datasheetText && p.datasheetText.length > 150;
+    const displayText = p.datasheetText ? p.datasheetText.replace(/\n/g, '<br>') : 'No detailed datasheet available for this product.';
+    
+    datasheetHtml = `
+      <div class="datasheet-section" style="margin-top: 30px; padding: 20px; border: 1.5px solid var(--teal-fade); border-radius: 16px; background: var(--teal-pale);">
+        <h3 style="font-size:1.2rem; color:var(--text-dark); margin-bottom:12px;">Product Datasheet & Details</h3>
+        
+        <div id="datasheet-content" style="position:relative;">
+           <div id="datasheet-text" style="color:var(--gray-dark); font-size:0.95rem; line-height:1.7; max-height: 100px; overflow: hidden; transition: max-height 0.4s ease;">
+             ${displayText}
+           </div>
+           ${isLongText ? `
+           <div id="datasheet-gradient" style="position:absolute; bottom:0; left:0; right:0; height:50px; background:linear-gradient(transparent, var(--teal-pale));"></div>
+           ` : ''}
         </div>
-        <div style="display:flex; gap:12px;">
-          <a href="${p.pdfLink}" target="_blank" style="flex:1; text-align:center; padding:10px 15px; border-radius:10px; background:white; border:2px solid var(--teal-main); color:var(--teal-main); font-weight:700; text-decoration:none; font-size:0.9rem; transition:0.2s;">👁️ View Brochure</a>
-          <a href="${p.pdfLink}" download target="_blank" style="flex:1; text-align:center; padding:10px 15px; border-radius:10px; background:var(--teal-main); color:white; font-weight:700; text-decoration:none; border:none; font-size:0.9rem; transition:0.2s;">⬇️ Download</a>
+        
+        <div style="display:flex; gap:12px; margin-top:16px; align-items:center; flex-wrap:wrap;">
+           ${isLongText ? `
+           <button id="read-more-btn" onclick="window.toggleDatasheet()" style="background:transparent; border:none; color:var(--teal-main); font-weight:700; cursor:pointer; font-size:0.95rem;">Read More ⬇</button>
+           ` : ''}
+           <div style="flex-grow:1;"></div>
+           ${p.pdfLink ? `
+           <a href="${p.pdfLink}" target="_blank" download style="padding:8px 16px; border-radius:8px; background:var(--teal-main); color:white; font-weight:700; text-decoration:none; font-size:0.85rem; display:inline-flex; align-items:center; gap:6px;">
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Download PDF
+           </a>
+           ` : ''}
         </div>
       </div>
     `;
@@ -3773,7 +3806,7 @@ function renderProductDetail(id) {
 
   document.getElementById('pdp-content').innerHTML = `
     <div>
-      <div class="pdp-img-main"><img src="${p.img || getCatImageHtml(p.cat)}" alt="${p.name} price in Lahore" style="max-width:90%;max-height:90%;object-fit:contain;"></div> <!-- Alt text added -->
+      <div class="pdp-img-main"><img src="${p.img || getCatImageHtml(p.cat)}" alt="${p.name} price in Lahore" style="max-width:90%;max-height:90%;object-fit:contain;"></div>
     </div>
     <div class="pdp-content">
       <div class="product-cat">${p.catLabel}</div>
@@ -3808,8 +3841,8 @@ function renderProductDetail(id) {
         <span>🔧 Installation available</span>
       </div>
 
-      <!-- NAYA BROCHURE WALA HISSA YAHAN AAYEGA -->
-      ${brochureHtml}
+      <!-- DATASHEET WALA HISSA YAHAN AAYEGA -->
+      ${datasheetHtml}
 
     </div>
   `;
@@ -3819,6 +3852,22 @@ function renderProductDetail(id) {
   document.getElementById('related-products').innerHTML = related.map(renderProductCard).join('');
 }
 
+// TOGGLE DATASHEET TEXT FUNCTION (GRADIENT AUR READ MORE KE SATH)
+window.toggleDatasheet = function() {
+  const textDiv = document.getElementById('datasheet-text');
+  const gradient = document.getElementById('datasheet-gradient');
+  const btn = document.getElementById('read-more-btn');
+  
+  if (textDiv.style.maxHeight === '100px') {
+    textDiv.style.maxHeight = '2000px'; 
+    if(gradient) gradient.style.display = 'none';
+    btn.innerHTML = 'Read Less ⬆';
+  } else {
+    textDiv.style.maxHeight = '100px'; 
+    if(gradient) gradient.style.display = 'block';
+    btn.innerHTML = 'Read More ⬇';
+  }
+};
 
 let pdpQty = 1;
 window.changeQty = function(d) {
@@ -3833,7 +3882,7 @@ window.addToCart = function(id) {
   const existing = cart.find(c => c.id == id);
   if (existing) existing.qty += pdpQty;
   else cart.push({ ...p, qty: pdpQty });
-  pdpQty = 1; // reset
+  pdpQty = 1; 
   
   updateCartCount();
   showToast('✓ ' + p.name.substring(0,30) + '... added!');
@@ -3875,7 +3924,7 @@ function renderCart() {
 
   container.innerHTML = cart.map(item => `
     <div class="cart-item">
-      <div class="cart-item-img"><img src="${item.img || getCatImageHtml(item.cat)}" alt="${item.name} in cart" style="max-width:80%;max-height:80%;"></div> <!-- Alt text added -->
+      <div class="cart-item-img"><img src="${item.img || getCatImageHtml(item.cat)}" alt="${item.name}" style="max-width:80%;max-height:80%;"></div>
       <div>
         <div class="cart-item-name">${item.name}</div>
         <div style="display:flex;align-items:center;gap:10px;margin-top:8px;">
@@ -3923,10 +3972,9 @@ window.togglePaymentDetails = function() {
     const bankDetailsBox = document.getElementById('bank-transfer-details');
     const jazzcashDetailsBox = document.getElementById('jazzcash-easypaisa-details');
 
-    // Hide all details boxes first
     bankDetailsBox.classList.remove('active');
     jazzcashDetailsBox.classList.remove('active');
-    paymentScreenshotFile = null; // Clear any previous screenshot file
+    paymentScreenshotFile = null; 
 
     // Update payment info in the DOM elements
     document.getElementById('bank-iban-num').textContent = paymentInfo.bankTransfer.iban;
@@ -3934,12 +3982,12 @@ window.togglePaymentDetails = function() {
 
     if (paymentMethod === 'Bank Transfer') {
         bankDetailsBox.classList.add('active');
-        document.getElementById('bank-screenshot-preview').style.display = 'none'; // Hide preview if re-selecting
-        document.getElementById('bank-screenshot-upload').value = ''; // Clear file input
+        document.getElementById('bank-screenshot-preview').style.display = 'none'; 
+        document.getElementById('bank-screenshot-upload').value = ''; 
     } else if (paymentMethod === 'JazzCash / EasyPaisa') {
         jazzcashDetailsBox.classList.add('active');
-        document.getElementById('jazzcash-screenshot-preview').style.display = 'none'; // Hide preview if re-selecting
-        document.getElementById('jazzcash-screenshot-upload').value = ''; // Clear file input
+        document.getElementById('jazzcash-screenshot-preview').style.display = 'none'; 
+        document.getElementById('jazzcash-screenshot-upload').value = ''; 
     }
 }
 
@@ -3948,7 +3996,6 @@ window.copyToClipboard = function(elementId) {
     navigator.clipboard.writeText(textToCopy).then(() => {
         showToast('Copied to clipboard!');
     }).catch(err => {
-        console.error('Failed to copy: ', err);
         showToast('Failed to copy', true);
     });
 }
@@ -3962,7 +4009,7 @@ window.handlePaymentScreenshotUpload = function(input, type) {
         return;
     }
 
-    paymentScreenshotFile = file; // Store the file for upload during placeOrder
+    paymentScreenshotFile = file; 
 
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -4016,20 +4063,13 @@ window.placeOrder = async function() {
       } catch (error) {
           console.error("Error uploading screenshot:", error);
           alert("Failed to upload payment screenshot. Please try again.");
-          return; // Stop order placement if upload fails
+          return; 
       }
 
       if (payMethod === 'Bank Transfer') {
-          paymentDetails = {
-              accountHolder: paymentInfo.bankTransfer.accountHolder,
-              bankName: paymentInfo.bankTransfer.bankName,
-              iban: paymentInfo.bankTransfer.iban
-          };
+          paymentDetails = { accountHolder: paymentInfo.bankTransfer.accountHolder, bankName: paymentInfo.bankTransfer.bankName, iban: paymentInfo.bankTransfer.iban };
       } else if (payMethod === 'JazzCash / EasyPaisa') {
-          paymentDetails = {
-              accountHolder: paymentInfo.jazzcash.accountHolder,
-              mobileNumber: paymentInfo.jazzcash.mobileNumber
-          };
+          paymentDetails = { accountHolder: paymentInfo.jazzcash.accountHolder, mobileNumber: paymentInfo.jazzcash.mobileNumber };
       }
   }
 
@@ -4037,8 +4077,8 @@ window.placeOrder = async function() {
     customer: { firstName: fname, lastName: lname, phone: phone, email: email, address: address, city: city, province: prov },
     items: cart.map(item => ({ id: item.id, name: item.name, price: item.price, qty: item.qty })),
     billing: { subtotal: subtotal, delivery: delivery, total: total, method: payMethod },
-    paymentDetails: paymentDetails, // Add payment details
-    paymentScreenshotUrl: paymentScreenshotUrl, // Add screenshot URL
+    paymentDetails: paymentDetails, 
+    paymentScreenshotUrl: paymentScreenshotUrl, 
     status: "Pending", date: new Date().toLocaleString()
   };
 
@@ -4052,13 +4092,13 @@ window.placeOrder = async function() {
         waMsg += `\n*Payment Screenshot:* ${paymentScreenshotUrl}`;
     }
 
-    window.open(`https://wa.me/923184195665?text=${encodeURIComponent(waMsg)}`, '_blank'); // WhatsApp number updated
+    window.open(`https://wa.me/923091453343?text=${encodeURIComponent(waMsg)}`, '_blank'); 
 
     cart = []; updateCartCount(); window.navigate('success');
   } catch (error) {
     alert("Error placing order. Please try again.");
   } finally {
-      paymentScreenshotFile = null; // Clear the file after trying to place order
+      paymentScreenshotFile = null; 
   }
 }
 
@@ -4103,12 +4143,10 @@ window.sendMessage = function() { showToast('✓ Message Sent!'); }
 // ============================================================
 window.onload = function() {
   history.replaceState({ trap: true }, "", window.location.pathname);
-  // Read current URL parameters to set initial page
   const urlParams = new URLSearchParams(window.location.search);
   const initialPage = urlParams.get('page') || 'home';
   const initialParam = urlParams.get('param');
 
-  // Push initial state to history to enable back navigation from default/deep-linked page
   history.pushState({ page: initialPage, param: initialParam }, "", `?page=${initialPage}${initialParam ? `&param=${initialParam}` : ''}`);
 
 
@@ -4122,13 +4160,12 @@ window.onload = function() {
       });
     }
 
-    // After products are loaded, apply the route
     applyRoute(initialPage, initialParam);
 
     updateFullCalcDisplay(); 
     calculateTotalLoad();
   });
-
+  
   setTimeout(() => {
     document.getElementById('splash').classList.add('hide');
     setTimeout(() => {
